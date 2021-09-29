@@ -1,0 +1,47 @@
+{
+ "properties": {
+  "displayName": "test",
+  "policyType": "Custom",
+  "description": "",
+  "metadata": {
+   "parameterScopes": {
+    "listOfAllowedSKUs": "/subscriptions/9a097634-1d34-4fb3-9dae-f17c55502fbc"
+   },
+   "createdBy": "0cafaf88-56de-41ee-bfaf-15a5bd344eab",
+   "createdOn": "2021-09-29T08:28:05.5353216Z",
+   "updatedBy": "0cafaf88-56de-41ee-bfaf-15a5bd344eab",
+   "updatedOn": "2021-09-29T14:01:22.1638614Z"
+  },
+  "parameters": {},
+  "policyDefinitions": [
+   {
+    "policyDefinitionReferenceId": "Allowed virtual machine size SKUs_1",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/cccc23c7-8427-4f53-ad12-b6a63eb452b3",
+    "parameters": {
+     "listOfAllowedSKUs": {
+      "value": [
+       "standard_d2s_v3"
+      ]
+     }
+    },
+    "groupNames": []
+   },
+   {
+    "policyDefinitionReferenceId": "Storage accounts should be limited by allowed SKUs_1",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/7433c107-6db4-4ad1-b57a-a76dce0154a1",
+    "parameters": {
+     "listOfAllowedSKUs": {
+      "value": [
+       "standard_lrs"
+      ]
+     }
+    },
+    "groupNames": []
+   }
+  ],
+  "policyDefinitionGroups": []
+ },
+ "id": "/subscriptions/9a097634-1d34-4fb3-9dae-f17c55502fbc/providers/Microsoft.Authorization/policySetDefinitions/c50a03aa7c68490f94323a97",
+ "type": "Microsoft.Authorization/policySetDefinitions",
+ "name": "c50a03aa7c68490f94323a97"
+}

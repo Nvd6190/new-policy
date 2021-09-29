@@ -1,0 +1,25 @@
+{
+ "sku": {
+  "name": "A0",
+  "tier": "Free"
+ },
+ "properties": {
+  "displayName": "test",
+  "policyDefinitionId": "/subscriptions/9a097634-1d34-4fb3-9dae-f17c55502fbc/providers/Microsoft.Authorization/policySetDefinitions/c50a03aa7c68490f94323a97",
+  "scope": "/subscriptions/9a097634-1d34-4fb3-9dae-f17c55502fbc/resourceGroups/Sunty-rg",
+  "notScopes": [],
+  "parameters": {},
+  "metadata": {
+   "assignedBy": "Gunjan Chaudhari",
+   "parameterScopes": {},
+   "createdBy": "0cafaf88-56de-41ee-bfaf-15a5bd344eab",
+   "createdOn": "2021-09-29T14:02:22.6286312Z",
+   "updatedBy": null,
+   "updatedOn": null
+  },
+  "enforcementMode": "Default"
+ },
+ "id": "/subscriptions/9a097634-1d34-4fb3-9dae-f17c55502fbc/resourceGroups/Sunty-rg/providers/Microsoft.Authorization/policyAssignments/d9f609b2547b46bb80217213",
+ "type": "Microsoft.Authorization/policyAssignments",
+ "name": "d9f609b2547b46bb80217213"
+}
