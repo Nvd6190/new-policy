@@ -21,6 +21,10 @@
      "listOfAllowedSKUs": {
       "value": [
        "standard_d2s_v3"
+       "Standard_B2ms"
+       "Standard_B4ms"
+       "Standard_D8s_v3"
+       "Standard_E2s_v3"
       ]
      }
     },
